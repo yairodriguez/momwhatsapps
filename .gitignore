@@ -2,6 +2,11 @@
 #################
 .DS_Store
 
+# Exclude build and development folders from Git #
+##################################################
+.tmp/
+dist/
+
 # Dependency directory #
 ########################
 node_modules/
