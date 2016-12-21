@@ -25,7 +25,13 @@
   },
   "homepage": "https://github.com/yairodriguez/momwhatsapps#readme",
   "devDependencies": {
+    "ghooks": "^2.0.0",
     "node-sass": "^4.1.1",
     "sass-lint": "^1.10.2"
+  },
+  "config": {
+    "ghooks": {
+      "pre-commit": "npm t"
+    }
   }
 }
