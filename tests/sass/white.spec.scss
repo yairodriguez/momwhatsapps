@@ -1,0 +1,10 @@
+@charset 'utf-8';
+
+@include test-module('Sass :: color.white') {
+  @include test('Should return the appropiate white rgba value with $opacity') {
+    $actual: white(0.9);
+    $expected: rgba(255, 255, 255, 0.9);
+
+    @include assert-equal($actual, $expected);
+  }
+}

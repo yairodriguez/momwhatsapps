@@ -2,7 +2,7 @@ options:
   formatter: stylish
 files:
   ignore: ''
-  include: ['app/styles/**/*.s+(a|c)ss']
+  include: ['app/styles/**/*.s+(a|c)ss', 'tests/**/*.s+(a|c)ss']
 rules:
   extends-before-mixins: 2
   extends-before-declarations: 2

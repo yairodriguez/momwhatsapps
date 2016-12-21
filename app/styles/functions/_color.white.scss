@@ -1,0 +1,5 @@
+@charset 'utf-8';
+
+@function white($opacity: 1) {
+  @return rgba(255, 255, 255, $opacity);
+}
