@@ -1,0 +1,31 @@
+{
+  "name": "momwhatsapps",
+  "version": "1.0.0",
+  "description": "Texting with Mom. Based on Real Events.",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "sass-lint --config .scss-lint.yml --verbose --no-exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yairodriguez/momwhatsapps.git"
+  },
+  "keywords": [
+    "Whatsapp",
+    "Novel",
+    "RWD",
+    "Sass",
+    "HTML5"
+  ],
+  "author": "Yair <@imyairodriguez>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yairodriguez/momwhatsapps/issues"
+  },
+  "homepage": "https://github.com/yairodriguez/momwhatsapps#readme",
+  "devDependencies": {
+    "node-sass": "^4.1.1",
+    "sass-lint": "^1.10.2"
+  }
+}
