@@ -1,0 +1,15 @@
+basePath: "https://github.com/yairodriguez/momwhatsapps"
+dest: "docs/sass"
+display:
+  access: ["private", "public"]
+  alias: true
+  watermark: true
+package:
+  title: "MomWhatsapps Docs"
+  name: "momwhatsapps-docs"
+  version: "0.1.0"
+  license: "MIT"
+  homepage: "momwhatsapps.lol"
+theme: "neat"
+groups:
+  undefined: Ungrouped
